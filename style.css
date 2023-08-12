@@ -1,0 +1,46 @@
+        body{
+            background-image: url("https://techbreak.ig.com.br/wp-content/uploads/2020/11/seguran%C3%A7a-digital-scaled-e1631918473619.jpeg")
+        }
+        h1{
+            text-align: center;
+            font-family: cursive;
+            color: rgb(0, 0, 0);
+        }
+        .container {
+            
+            margin: 200px auto;
+            text-align: center;
+            background: rgba(0, 0, 0, 0);
+            
+        }
+        label{
+            font-family: cursive;
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+        }
+        .form-control {
+            margin: 25px;
+        }
+        .form-control input[type="text"]{
+            height: 20px;
+            border-radius: 6px;
+            border: 3px solid rgb(131, 35, 35);
+            padding-left: 7px;
+
+        }
+        .form-control input[type="password"] {
+            height: 20px;
+            border-radius: 6px;
+            border: 3px solid rgb(131, 35, 35);
+            padding-left: 7px;
+        }
+        button {
+            margin-bottom: 20px;
+            background: rgb(5, 1, 54);
+            color: #fff;
+            font-family: cursive;
+            font-size: 16px;
+            padding: 10px;
+            border: 0;
+            cursor: pointer;
+        }
