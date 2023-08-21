@@ -5,7 +5,7 @@ button.addEventListener("click", function(event){
     const login = document.querySelector("#login");
     const senha = document.querySelector("#senha")
 
-    if(login.value === "Gabriel" && senha.value === "123") {
+    if(login.value === "Gabriel" && senha.value === "123456") {
         alert("vc entrou")}
     else{ alert("Login ou senha incorreta")}
 })
