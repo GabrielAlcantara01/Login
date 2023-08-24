@@ -6,6 +6,6 @@ button.addEventListener("click", function(event){
     const senha = document.querySelector("#senha")
 
     if(login.value === "Gabriel" && senha.value === "123456") {
-        location.href = "https://gabrielalcantara01.github.io/cronometro/";
+        alert("vc entrou");
     else{ alert("Login ou senha incorreta")}
 })
