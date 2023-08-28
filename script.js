@@ -7,5 +7,5 @@ button.addEventListener("click", function(event){
 
     if(login.value === "Gabriel" && senha.value === "123456") {
         alert("vc entrou");
-    else{ alert("Login ou senha incorreta")}
+    else{ alert("Login ou senha incorreta")};
 }
