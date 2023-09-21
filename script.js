@@ -1,11 +1,5 @@
-const button = document.querySelector("button");
-
-button.addEventListener("click", function(event){
-    event.preventDefault();
-    const login = document.querySelector("#login");
-    const senha = document.querySelector("#senha")
-
-    if(login.value === "Gabriel" && senha.value === "123456") {
-     location.href="https://gabrielalcantara01.github.io/cronometro/";
-    else{ alert("Login ou senha incorreta")};
+function validar(login, senha) {
+    if (usuario == "admin" && senha == "admin") {
+        location.href = "https://www.uninove.br/";
+    } else { alert('Usuario e/ou senha incorretas') }
 }
